@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.none {
+    display: none;
+}
+
+body {
+    text-align: center;
+    transition-property: background-color, opacity;
+    transition-duration: 2s, 2s;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    background-color: black;
+
+
+}
+
+button {
+    padding: 6px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(255, 77, 175);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.intro h1 {
+    font-family: "Bubblegum Sans", sans-serif;
+    color: red;
+    
+}
+
+
+.intro {
+    margin-top: 10em;
+    margin-inline: 2em;
+    background-color: black;
+}
+
+.login {
+    display: none;
+}
+
+.login h1 {
+    color: red;
+    margin-top: 2em;
+    font-family: "Bubblegum Sans", sans-serif;
+}
+
+.login img {
+    display: block;
+    width: 110%;
+    transform:  translateX(-3%);
+}
+
+.siapa {
+    margin-inline: 2em;
+    display: none;
+}
+
+.siapa h1 {
+    color: red;
+}
+
+.siapa p {
+    color: white;
+}
+
+.siapa img {
+    display: block;
+    width: 115%;
+    transform:  translateY(0%);
+}
+
+  
+.main {
+    color: #FF56A7;
+    background-color: rgb(255, 212, 212);
+
+    
+
+}
+
+.main img {
+    width: 100%;
+}
+
+
+.hero {
+    padding: 3em;
+    background-color: #ffffff;
+}
+
+.hero p {
+    color: #6C6C6C;
+}
+
+.pembukaan {
+    padding: 3em;
+}
+
+.pembukaan p {
+    margin-top: 4em;
+    color: #6C6C6C;
+    font-size: 1em;
+}
+
+.pembukaan img {
+    margin-top: 3em;
+    width: 60%;
+}
+
+.another {
+    padding: 3em;
+    background-color: black;
+}
+
+.another p {
+    margin-top: 4em;
+}
+
+.kata {
+    background-color: #6C6C6C;
+    padding: 3em;
+}
+
+.kata p {
+    font-size: 2em;
+}
+
+.kata h2 {
+    font-size: 4em;
+}
+
+.wish {
+    padding: 3em;
+    background-color: #ffffff;
+}
+
+.wish h1 {
+    font-size: 3em;
+}
+
+.wish p {
+    color: #6C6C6C;
+}
+
+.gift {
+    padding: 3em;
+}
+
+.gift h1 {
+    font-size: 3em;
+}
+
+.gift h2 {
+    color: #6C6C6C;
+}
+
+.gift h3 {
+    padding-block: 1em;
+    border-radius: 5px;
+    color: #FF56A7;
+}
+
+.giftcontainer {
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 2em;
+}
+
+.year {
+    background-color: #000000;
+    padding: 3em;
+}
+
+.year h1 {
+    font-size: 3em;
+}
+
+.year p {
+    color: white;
+    margin-bottom: 3em;
+}
+
+.spesial {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aca {
+    padding: 3em;
+}
+
+.akhirkata {
+    background-color: white;
+    padding: 3em;
+}
+
+.akhirkata p {
+    color: #6C6C6C;
+}
+
+.hasyim {
+    background-color: black;
+    padding: 3em;
+}
+
+.penutup {
+    height: 20em;
+    background: lightblue url("ciu2.png") no-repeat fixed center;
+}
+
+.penutup h1 {
+    transform: translateY(260%);
+}
+
+input {
+    border: 10px straight rgb(255, 67, 114);
+    width: 50%;
+    padding-block: 1em;
+    margin-bottom: 1em;
+}
