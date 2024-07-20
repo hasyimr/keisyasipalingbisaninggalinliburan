@@ -2,10 +2,16 @@ var submitIntro = document.getElementById("submitIntro")
 var submitButton = document.getElementById("submit")
 var nyalainButton = document.getElementById("nyalain")
 var submitSecond = document.getElementById("submitSecond")
+var submitThird = document.getElementById("submitThird")
+var kataButton = document.getElementById("kataButton")
 var headerName = document.getElementById("name")
+var keisyaName = document.getElementById("keisya")
+var pilganButton = document.querySelector('.pilganButton')
 var intro = document.querySelector('.intro')
 var login = document.querySelector('.login')
 var siapa = document.querySelector('.siapa')
+var hewan = document.querySelector('.hewan')
+var cowo = document.querySelector('.cowo')
 var gelap = document.querySelector('.gelap')
 var main = document.querySelector('.main')
 var videoAca = document.getElementById("videoaca")
@@ -52,7 +58,7 @@ submitButton.addEventListener("click", (event) => {
         login.style.display = "none";
         siapa.style.display = "block";
       } else {
-        headerName.innerHTML = `${name} siapa cok, kaga spesial elu buat gua`;
+        headerName.innerHTML = `${name} itu pin siapa anjir`;
       }
     
   });
@@ -60,17 +66,36 @@ submitButton.addEventListener("click", (event) => {
   submitSecond.addEventListener("click", (event) => {
     var nameSecond = document.getElementById("searchTxtSecond").value.toLowerCase();
     console.log(nameSecond)
-    if (nameSecond === "hasyim") {
+    if (nameSecond === "keisya bilqis alhena") {
         document.body.style.backgroundColor = "black";
 
         siapa.style.display = "none";
-        sleep(2000).then(() => { gelap.classList.remove("none"); });
+        hewan.classList.remove("none");
+        // sleep(2000).then(() => { gelap.classList.remove("none"); });
 
         
 
         
       } else {
-        headerName.innerHTML = `${nameSecond} siapa cok, kaga spesial elu buat gua`;
+        nameSecond.innerHTML = `${nameSecond} siapa cok, kaga spesial elu buat gua`;
+      }
+    
+  });
+
+  submitThird.addEventListener("click", (event) => {
+    var nameThird = document.getElementById("searchTxtThird").value.toLowerCase();
+    if (nameThird === "kupu-kupu" || nameThird === "kupu kupu" || nameThird === "kupukupu") {
+        document.body.style.backgroundColor = "black";
+
+        hewan.style.display = "none";
+        cowo.classList.remove("none");
+        // sleep(2000).then(() => { gelap.classList.remove("none"); });
+
+        
+
+        
+      } else {
+        keisyaName.innerHTML = `${nameSecond} siapa cok, kaga spesial elu buat gua`;
       }
     
   });
@@ -135,4 +160,21 @@ submitButton.addEventListener("click", (event) => {
   videoAca.addEventListener("click", (event) => {
 
     birthdayAudio.pause();
+  });
+
+  pilganButton.addEventListener("click", (event) => {
+
+    cowo.style.display = "none";
+    sleep(2000).then(() => { gelap.classList.remove("none"); });
+
+    
+  });
+
+  kataButton.addEventListener("click", (event) => {
+
+    var kataHeader = document.getElementById("kataHeader")
+
+    kataButton.style.display = "none";
+    kataHeader.classList.remove("none");
+
   });

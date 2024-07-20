@@ -24,10 +24,15 @@ button {
     padding: 6px 25px;
     font-size: 14px;
     cursor: pointer;
-    background-color: rgb(255, 77, 175);
+    background-color: rgb(255, 0, 0);
     border: none;
     color: white;
     border-radius: 5px;
+}
+
+h1 {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-size: 2em;
 }
 
 .intro h1 {
@@ -76,6 +81,36 @@ button {
     display: block;
     width: 115%;
     transform:  translateY(0%);
+}
+
+.hewan {
+    margin-inline: 2em;
+}
+
+.hewan p {
+    color: white;
+}
+
+.hewan h1 {
+    color: red;
+}
+
+.hewan img {
+    display: block;
+    width: 100%;
+}
+
+.cowo {
+    margin-inline: 2em;
+}
+
+.cowo h1 {
+    color: red;
+}
+
+.cowo img {
+    display: block;
+    width: 100%;
 }
 
   
@@ -131,16 +166,39 @@ button {
 }
 
 .kata p {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .kata h2 {
-    font-size: 4em;
+    font-size: 3em;
+}
+
+.kata button {
+    color: white;
+    background-color: #FF56A7;
+}
+
+.tanggal {
+    padding: 3em;
+    background-color: #ffffff;
+}
+
+.tanggal h1 {
+    font-size: 3em;
+}
+
+.tanggal p {
+    color: #6C6C6C;
 }
 
 .wish {
     padding: 3em;
-    background-color: #ffffff;
+    background-color: #000000;
+}
+
+.wish button {
+    color: white;
+    background-color: #FF56A7;
 }
 
 .wish h1 {
@@ -148,7 +206,7 @@ button {
 }
 
 .wish p {
-    color: #6C6C6C;
+    color: #ffffff;
 }
 
 .gift {
@@ -159,8 +217,12 @@ button {
     font-size: 3em;
 }
 
-.gift h2 {
+.gift p {
     color: #6C6C6C;
+}
+
+.gift h2 {
+    color: #FF56A7;
 }
 
 .gift h3 {
@@ -193,6 +255,7 @@ button {
     font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
+    color: red;
 }
 
 .aca {
@@ -216,6 +279,11 @@ button {
 .penutup {
     height: 20em;
     background: lightblue url("ciu2.png") no-repeat fixed center;
+}
+
+.penutup p {
+    transform: translateY(150%);
+    color: rgb(255, 0, 0);
 }
 
 .penutup h1 {
